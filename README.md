@@ -1,5 +1,7 @@
 # Documentation for the FileGenerator projects.
 
+This repository contains 3 projects which can be used to generate crawling c# files based on data sources. Make sure to right-click on the project that you wish to run and click "Set as Startup Project".
+
 ## MetadataFile project
 
 This project generates the files necessary for a CluedIn crawler to run (models, vocabularies, clue producers, and crawler code). These files will be copy-pasted in the crawler that has been generated (see http://documentation.cluedin.net/docs/10-Integration/build-integration.html). Please note that the crawlerCode file will not be copy-pasted, but its content will be copy-pasted in the `GetData` method of the Crawler class in the crawler (Crawling project).
