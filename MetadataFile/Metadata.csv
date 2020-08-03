@@ -1,0 +1,10 @@
+﻿PRSN,Person,NULL,ID,,,Yes,Guid,Yes,nvarchar_50,
+PRSN,Person,NULL,FIRST_NAME,First Name,,No,PersonName,No,nvarchar_50,
+PRSN,Person,NULL,LAST_NAME,Last Name,,No,PersonName,No,nvarchar_50,
+PRSN,Person,NULL,ADD,Address,Address ID of the person,Yes,Guid,No,nvarchar_50,ADDRESS.Id
+PRSN,Person,NULL,ROLE,Role,Job title of the person,No,Text,No,nvarchar_50,
+PRSN,Person,NULL,DOB,Date Of Birth,,No,DateTime,No,datetime2,
+MEDX,NULL,Medicine,ID,,,Yes,Guid,Yes,nvarchar_50,
+MEDX,NULL,Medicine,MED_NAME,Medicine Name,,No,Text,No,nvarchar_50,
+MEDX,NULL,Medicine,PRS_IND,Prescription Indicator,Indicates wheter the medicine requires prescription or not,No,Boolean,No,bit,
+MEDX,NULL,Medicine,DESCR,Description,,No,Text,No,nvarchar_50,
